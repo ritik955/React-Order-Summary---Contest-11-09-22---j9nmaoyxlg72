@@ -52,8 +52,8 @@ const App = () => {
               </svg>
             </div>
             <div className="plan">
-              <h4 id="plan-title"></h4>
-              <p id="plan-price"></p>
+              <h4 id="plan-title">Annual Plan</h4>
+              <p id="plan-price">$59.99/year</p>
             </div>
             <select onChange={changeHandler} className="select" id="select">
               <option disabled selected>
